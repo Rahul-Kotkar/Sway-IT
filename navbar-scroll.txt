@@ -1,0 +1,14 @@
+<script>
+    document.addEventListener('scroll', () => {
+        const nav = document.querySelector('nav');
+        if (window.scrollY > 10) {
+            nav.classList.add('scrolled');
+            document.querySelector('.logo-part').innerHTML = '<img src="./assets/logo.png" alt="">';
+
+        }
+        else {
+            nav.classList.remove('scrolled');
+            document.querySelector('.logo-part').innerHTML = '<img src="./assets/logo-main.png" alt="">';
+        }
+    })
+</script>

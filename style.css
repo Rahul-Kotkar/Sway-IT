@@ -1,0 +1,903 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+main{
+    font-family: "Open Sans", serif;
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+}
+
+/* main section starts */
+main .main-sec{
+    font-family: "Open Sans", serif;
+    background-image: url(./assets/10004.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* nav section */
+nav{
+    font-family: "Open Sans", serif;
+    width: 100%;
+    /* height: 60px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+    z-index: 2;
+    position: fixed;
+    top: 0;
+}
+
+/* javascript classes for scrolling or after scroll effect */
+
+.scrolled{
+    background-color: white;
+    color: black;
+    transition: 0.3s ease-in;
+}
+
+.scrolled .left p{
+    color: black;
+}
+
+.scrolled .left svg{
+    color: black;
+}
+
+.scrolled .container .right .one svg{
+    color: black;
+}
+
+.scrolled .container2 .one h1{
+    color: black;
+}
+
+.scrolled .container2 .two ul li{
+    color: black;
+}
+
+/* top navigation */
+
+nav .container{
+    width: 100%;
+    display: flex;
+    padding: 0 11vw;
+    font-size: .9em;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(186, 149, 255, 0.2);
+    
+}
+
+.container .left{
+    font-weight: bold;
+    display: flex;
+    color: white;
+    gap: 1vw;
+    /* padding: 0; */
+}
+
+.container .left .one{
+    font-weight: bold;
+    gap: 1vw;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid rgba(186, 149, 255, 0.2);
+    /* padding: 0 1vw; */
+
+}
+
+
+.container .left .two{
+    font-weight: bold;
+    gap: 1vw;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid rgba(186, 149, 255, 0.2);
+
+}
+
+.container .left .three{
+    font-weight: bold;
+    gap: 1vw;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid  rgba(186, 149, 255, 0.2);
+    border-right: 1px solid rgba(186, 149, 255, 0.2);
+
+
+}
+
+.container .right{
+    display: flex;
+}
+
+.container .right .one{
+    font-weight: bold;
+    gap: 1vw;
+    display: flex;
+    align-items: center;
+    padding: .5vw 1vw;
+    border-left: 1px solid  rgba(186, 149, 255, 0.2);
+    border-right: 1px solid rgba(186, 149, 255, 0.2);
+
+
+}
+
+.container .right .one svg{
+    color: white;
+}
+
+
+/* secondary navigation */
+
+nav .container2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+    /* background-color: red; */
+    padding: 1vw 10vw;
+    /* background-color: aqua; */
+}
+
+.container2 .one{
+    width: 10%;
+    font-size: 1.5rem;
+    /* display: flex; */
+    gap: 1vw;
+    /* padding: 1.8vw 10vw; */
+}
+
+
+.container2 .two{
+    width: 75%;
+    padding: 1vw 0;
+    display: flex;
+    align-items: center;
+    
+    gap: 3vw;
+
+}
+
+
+.container2 .two ul{
+    display: flex;
+    gap: 2.5vw;
+
+    
+}
+
+
+.container2 .two ul li{
+
+    list-style-type: none;
+    font-size: 1.2em;
+    
+}
+
+.container2 .two img{
+    height: 11px;
+    width: 16px;
+}
+
+.container2 .three{
+    width: 15%;
+    /* margin-left: 8vw; */
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.container2 .three button{
+    /* width: 100%; */
+    padding: .9vw 2.5vw;
+    background-color: #377EF9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* hero section starts from here */
+
+.hero{
+    width: 100%;
+    padding: 17vw 10vw;
+    padding-top: 25vw;
+    padding-bottom: 7vw;
+
+}
+
+/* first section refer to heading and play button */
+
+.hero .first{
+    display: flex;
+
+}
+
+/* left means heading */
+
+.hero .left{
+    color: white;
+    width: 60%;
+}
+
+.hero .left h1{
+    font-size: 3em;
+}
+
+.hero .left h4{
+    font-size: 18px;
+    line-height: 27px;
+    padding: 3vw 0;
+}
+
+.hero .left button{
+    padding: .9vw 2.5vw;
+    background-color: #377EF9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* right means play button */
+
+.hero .right{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 14vw;
+    padding-bottom: 1vw;
+
+}
+
+.hero .right .white{
+    background-color: white;
+    border-radius: 50%;
+    padding: 3vw;
+}
+
+/* social images */
+.hero .images{
+    padding-top: 17vw;
+    display: flex;
+    justify-content: space-between ;
+}
+
+.hero .images img{
+    height: 30px;
+}
+
+
+
+/* *****************second main section starts from here**************** */
+
+.second-main{
+    padding: 0vw 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e0f0f70d;
+}
+
+/* text section */
+
+.second-main .text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.second-main .text .up{
+    width: 50%;
+    font-size: medium;
+    color: rgb(174, 174, 174);
+    padding-top: 9.5vw;
+    padding-bottom: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.second-main .text .down{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.second-main .text .down h1{
+    color: rgb(30, 38, 109);
+    /* width: 90%; */
+    font-size: 2.3rem;
+}
+
+/* cards section or 3 images */
+
+.second-main .cards{
+    width: 100%;
+    display: flex;
+    margin: 4vw 0;
+    justify-content: space-around;
+
+}
+
+.second-main .cards img{
+    border-radius: 4px;
+    width: 100%;
+}
+
+.cards .one{
+    width: 33.33%;
+    padding: 1vw;
+}
+
+.cards h5{
+    margin: 1vw 0;
+    font-size: 1.2rem;
+    color: rgb(30, 38, 109);
+    font-weight: bold;
+}
+
+.cards .anchor{
+    width: 100%;
+    padding:1vw 0;
+}
+
+.cards .anchor a{
+    text-decoration: none;
+    color: blue;
+    
+}
+
+.cards .two{
+    width: 33.33%;
+
+    padding: 1vw;
+}
+
+.cards .three{
+    width: 33.33%;
+
+    padding: 1vw;
+}
+
+.hr{
+    width: 100%;
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.336);
+}
+
+
+/* second part of the second main section */
+/* two main div boxes */
+.second-main .two-boxes{
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    padding: 8vw 0;
+}
+
+.two-boxes .box-1{
+    width:50% ;
+    /* display: flex;
+    align-items: center;
+    flex-direction: column; */
+    padding: 4.6vw 0;
+
+}
+
+.box-1 h1{
+    font-weight: 700;
+    font-size: 2.1rem;
+    line-height: 44px;
+    color: rgb(30, 38, 109);
+    /* width: 80%; */
+
+}
+
+.box-1 p{
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 27px;
+    color: rgb(68, 87, 129);
+    padding: 2vw 0;
+    width: 80%;
+
+}
+
+.box-1 button{
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 17px;
+    color: white;
+    padding: 1.2vw 2vw;
+    background-color:#377EF9;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.two-boxes .box-2{
+
+    width:50% ;
+    /* background-color: aqua; */
+    position: relative;
+    z-index: 0;
+
+}
+
+.two-boxes .box-2 .bac{
+    background-color: rgb(243, 248, 253);
+    border-radius: 5px;
+    border: none;
+    width:97% ;
+    padding: 4vw;
+
+}
+
+#bacimg{
+    border-radius: 10px;
+}
+
+#frnimg{
+    border-radius: 10px;
+    position: absolute;
+    bottom: 8vw;
+    left: 25vw;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    
+}
+
+/* ********************************************** */
+/* third main section starts from here */
+
+.third-main{
+    width: 100%;
+    background-color: #F1F6FF;
+    display: flex;
+    padding: 7vw 10vw;
+    padding-bottom: 1.7vw;
+}
+
+.third-main .left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+/* single box of left side */
+
+.third-main .left .one-box{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.third-main .left .one-box .svgi{
+    background-color: #377ef917;
+    width: 30%;
+    padding: 10% 10%;
+    display: flex;
+    justify-content: center;align-items: center;
+    border-radius: 5px;
+    
+}
+
+.third-main .left .one-box h3{
+    padding: 2vw 0;
+}
+
+.third-main .left .one-box p{
+    padding-bottom: 2vw;
+}
+
+.third-main .left .one-box a{
+    text-decoration: none;
+}
+
+
+.third-main .left .one-box .svgi svg{
+    color:#377EF9;
+    /* height: 70%;
+    width: 70%; */
+}
+
+/* two boxes of left side  */
+
+.third-main .left .two-boxes{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.third-main .left .two-boxes .top{
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.third-main .left .two-boxes .top .svgi{
+    background-color: #377ef917;
+    width: 30%;
+    padding: 10% 10%;
+    display: flex;
+    justify-content: center;align-items: center;
+    border-radius: 5px;
+    
+}
+
+.third-main .left .two-boxes .top h3{
+    padding: 2vw 0;
+}
+
+.third-main .left .two-boxes .top p{
+    padding-bottom: 2vw;
+}
+
+.third-main .left .two-boxes .top a{
+    text-decoration: none;
+}
+
+
+.third-main .left .two-boxes .top .svgi svg{
+    color:#377EF9;
+    /* height: 70%;
+    width: 70%; */
+}
+
+
+/* right part of the third main */
+
+.third-main .right{
+    width: 50%;
+    padding-left: 9vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8vw;
+    padding-bottom: 8vw;
+    
+}
+
+.third-main .inner{
+    width: 100%;
+}
+
+.third-main .right h1{
+    font-size: 2.1rem;
+    font-weight: 650;
+    line-height: 2.8rem;
+    color: rgb(30, 38, 109);
+}
+
+.third-main .right p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgb(68, 87, 129);
+    line-height: 2rem;
+    padding: 2vw 0;
+}
+
+.third-main .right ul{
+    padding-top: 1vw;
+    padding-bottom: 4vw;
+}
+
+.third-main .right ul li{
+    line-height: 1.9rem;
+    font-size: 1.09rem;
+    font-weight: 400;
+}
+
+.third-main .right ul {
+    list-style: none; /* Removes default bullets */
+    /* padding: 0; */
+  }
+  
+  .third-main .right ul li {
+    position: relative;
+    padding-left: 30px; /* Space for the circle */
+    margin-bottom: 10px;
+  }
+  
+  .third-main .right ul li::before {
+    content: "\2713"; /* Unicode checkmark (✓) */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%); /* Center it vertically */
+    background-color: green; /* Circle background */
+    color: white; /* Checkmark color */
+    font-weight: bold;
+    font-size: 14px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%; /* Makes it a perfect circle */
+  }
+  
+
+/* button */
+.third-main .right button{
+    /* width: 30%; */
+    padding: 1vw 2vw;
+    background-color: #377EF9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+
+/* ******************************************************** */
+/* forth main section starts from here */
+
+.forth-main{
+    width: 100%;
+    position: relative;
+    padding: 0 10vw;
+}
+
+.forth-main .first{
+    display: flex;
+    width: 100%;
+    padding-top: 7vw;
+    padding-bottom: 2vw;
+}
+
+.forth-main .first .left{
+    width: 70%;
+}
+
+.forth-main .first .left h1{
+    font-size: 2.7rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+    color: rgb(30, 38, 109);
+}
+
+.forth-main .first .left p{
+    font-size: 1.1rem;
+    width: 80%;
+    font-weight: 400;
+    color: rgb(68, 87, 129);
+    line-height: 2rem;
+    padding: 2vw 0;
+}
+
+
+.forth-main .first .right{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.forth-main .first .right button{
+    /* width: 30%; */
+    font-weight: bold;
+    padding: 1.1vw 2.8vw;
+    background-color: white;
+    color: #377EF9;
+    border: solid 1px #377EF9;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    position: absolute;
+    right: 10%;
+}
+
+
+.forth-main .second{
+    width: 100%;
+    display: flex;
+    padding: 0 8vw;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+
+}
+
+.forth-main .second .one{
+    width: 5vw;
+    padding: 1.4vw 0;
+    background-color: #377EF9;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.forth-main .second .hrr{
+    width: 20%;
+    height: 2px;
+    background-color: rgba(128, 128, 128, 0.118);
+}
+
+
+.forth-main .third{
+    width: 100%;
+    display: flex;
+
+}
+
+.forth-main .third .four{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2vw;
+}
+
+.forth-main .third .four h3{
+    padding: 1.5vw 0;
+    color: rgb(30, 38, 109)
+}
+
+
+.forth-main .third .four p{
+    font-size: .9rem;
+}
+
+
+.forth-main .forth{
+    width: 100%;
+    padding: 5vw 0;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.forth-main .forth .hrr{
+    /* width: 20%; */
+    height: 2px;
+    background-color: rgba(128, 128, 128, 0.118);
+}
+
+.forth-main .forth .content{
+    padding: 2vw 0;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.forth-main .forth .content p{
+    font-weight: bold;
+}
+
+.forth-main .fifth{
+    width: 100%;
+    display: flex;
+    gap: 2vw;
+    padding-bottom: 5vw;
+}
+
+.forth-main .fifth .left{
+    width: 50%;
+    background-color: #F1F6FF;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+.forth-main .fifth .left img{
+    border-radius: 5px;
+    display: block; /* Removes extra space below inline images */
+    /* width: 100%; Adjust if necessary */
+}
+
+.forth-main .fifth .left .white{
+    background-color: rgba(255, 255, 255, 0.845);
+    border-radius: 50%;
+    padding: 3vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the SVG */
+    z-index: 10; /* Ensures it appears above the image */
+}
+
+
+.forth-main .fifth .left svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the SVG */
+    z-index: 10; /* Ensures it appears above the image */
+}
+
+.forth-main .fifth .right{
+    width: 50%;
+    padding: 7% 7%;
+    padding-right: 0;
+
+}
+
+
+.forth-main .fifth .right h5{
+    padding: 0.5% 2%;
+    display: inline;
+    background-color: #E1ECFE;
+    border-radius: 50px;
+    font-size: 1rem;
+    color: #377EF9;
+}
+
+
+.forth-main .fifth .right h1{
+    color: rgb(30, 38, 109);
+    font-size: 2rem;
+    padding: 2vw 0;
+}
+
+.forth-main .fifth .right p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgb(68, 87, 129);
+    line-height: 2rem;
+    padding: 3.5vw 0;
+    padding-top: 0;
+}
+
+
+
+.forth-main .fifth .right button{
+        /* width: 30%; */
+        padding: 1vw 2vw;
+        background-color: #377EF9;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 1.1rem;
+}
