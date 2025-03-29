@@ -901,3 +901,279 @@ nav .container2{
         border-radius: 5px;
         font-size: 1.1rem;
 }
+
+
+/* Web blog starts  */
+.web-blogs-main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+
+
+.web-blogs-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.web-blogs-header h1{
+    font-size: 2.7rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+    color: #1e266d;
+}
+
+.web-blogs{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.blog-cat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #f1f6ff;
+    border-radius: 30px;
+    padding: 5px 9px;
+    gap: 10px;
+}
+
+.blog-cat p{
+    color: #377ef9;
+    font-weight: bold;
+
+}
+
+.blog-dot{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #377ef9;
+}
+.web-blog{
+    display: flex;
+    align-items: start;
+    justify-content:center;
+    flex-direction: column;
+    padding: 30px;
+    border: 1px solid rgb(159, 159, 159);
+    width: 30%;
+    gap: 20px;
+}
+
+
+.blog-time-edit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    font-weight: bold;
+    color: rgb(74, 74, 74);
+}
+
+.blog-time-edit .blog-edit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+
+.visit-blog-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.visit-blog-btn button{
+    padding: 10px 15px;
+    border: 1px solid #377ef9;
+    background-color: transparent;
+    color: #377ef9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.visit-blog-btn button:hover{
+    transition: 0.3s ease-in all;
+    background-color: #377ef9;
+    color: white;
+    
+}
+
+.web-blog-design{
+    
+    padding: 0 10vw;
+}
+
+.contact-form-main{
+    padding-top: 10vh;
+    background-color: #f1f6ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-head{
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    
+}
+.contact-head p{
+    width: 40vw;
+    color: #4b5e86;
+}
+
+.contact-head h1{
+    font-size: 2.7rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+    color: rgb(30, 38, 109);
+}
+
+.contact-form-man{
+    padding: 0vw 10vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-man img{
+    height: 80vh;
+}
+
+.contact-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5vw;
+    padding: 3vw;
+    gap: 2vh;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    width: 30vw;
+}
+.form-data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-form h3{
+    color: navy;
+}
+.contact-form p{
+    color: gray;
+}
+.contact-form .form-data{
+    width: 100%;
+}
+.contact-form .form-data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vh;
+}
+.contact-form .form-data input, textarea{
+    width: 90%;
+    padding: 1.1rem;
+    background-color: #f1f6ff;
+    border: none;
+    font-weight: bold;
+    resize: none;
+}
+
+.contact-form .form-data button{
+    padding: 1rem 2.5rem ;
+    background-color: #377ef9;
+    border-radius: 0.5rem;
+    color: white;
+    /* font-weight: bold; */
+    /* font-size: large; */
+    border: none;
+}
+
+footer{
+    
+    background-color: #212240;
+    padding: 3vw 10vw;
+}
+.footer-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-header .footer-nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+.footer-header a{
+    text-decoration: none;
+    color: gray;
+    font-weight: 400;
+}
+
+.footer-header .footer-social svg{
+    height: 1vw;
+}
+
+.footer-hr{
+    margin: 2vw 0vw;
+    background-color: #35376a;
+    height: 1px;
+    width: 100%;
+}
+
+.footer-handles{
+    padding: 3vw;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+.footer-handles .footer-handle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.footer-handle p{
+    font-weight: bold;
+    color: white;
+}
+.footer-handle a{
+    color: gray;
+    text-decoration: none;
+}
+
+.copyright-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 0.5vw;
+    color: gray;
+}
